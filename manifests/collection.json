@@ -1,0 +1,15 @@
+{
+  "id" : "https://FrbFrida.github.io/test4/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in FrbFrida/test4 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://FrbFrida.github.io/test4/manifests/test4.json",
+    "label" : {
+      "en" : [ "Frida's manifest test (annotated with IMMARKUS)" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
