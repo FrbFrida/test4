@@ -1,0 +1,225 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://FrbFrida.github.io/test4/manifests/test4.json",
+  "type" : "Manifest",
+  "rights" : "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "behavior" : [ "continuous" ],
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Important" ]
+    },
+    "value" : {
+      "en" : [ "Please have a close look" ]
+    }
+  },
+  "summary" : {
+    "en" : [ "This is a manifest by Frida" ]
+  },
+  "label" : {
+    "en" : [ "Frida's manifest test (annotated with IMMARKUS)" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "object type" ]
+    },
+    "value" : {
+      "en" : [ "painting" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "painter" ]
+    },
+    "value" : {
+      "en" : [ "pieter van der hulst" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "date" ]
+    },
+    "value" : {
+      "en" : [ "1692" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "technique" ]
+    },
+    "value" : {
+      "en" : [ "oil on paper" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Source" ]
+    },
+    "value" : {
+      "en" : [ "This manifest is a derivative copy of the <a href=\"https://frbfrida.github.io/November-2026/manifests/manifest2.json\">original manifest</a>, annotated with <a href=\"https://immarkus.xmarkus.org\">IMMARKUS</a>." ]
+    }
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/c123b28a-9c8d-476b-9be3-f66bc5b01843/canvas/pjq2dmyx8bm-mwup7rw9",
+    "type" : "Canvas",
+    "height" : 3617,
+    "width" : 4792,
+    "label" : {
+      "en" : [ "Front" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "side" ]
+      },
+      "value" : {
+        "en" : [ "front" ]
+      }
+    } ],
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/a-9190%2fA9190.jpg/full/300,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 226,
+      "width" : 300,
+      "service" : [ {
+        "@id" : "https://iiif.archive.org/image/iiif/2/a-9190%2fA9190.jpg",
+        "@type" : "ImageService2",
+        "profile" : "http://iiif.io/api/image/2/level2.json",
+        "width" : 4792,
+        "height" : 3617,
+        "sizes" : [ {
+          "width" : 150,
+          "height" : 113
+        }, {
+          "width" : 300,
+          "height" : 226
+        }, {
+          "width" : 599,
+          "height" : 452
+        }, {
+          "width" : 1198,
+          "height" : 904
+        }, {
+          "width" : 2396,
+          "height" : 1809
+        }, {
+          "width" : 4792,
+          "height" : 3617
+        } ],
+        "tiles" : [ {
+          "width" : 512,
+          "height" : 512,
+          "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+        } ]
+      } ]
+    } ],
+    "items" : [ {
+      "id" : "https://frbfrida.github.io/November-2026/annotations/annotations-1739470943.json",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://frbfrida.github.io/November-2026/annotations/annotations-4049269286.json",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/c123b28a-9c8d-476b-9be3-f66bc5b01843/canvas/pjq2dmyx8bm-mwup7rw9",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/a-9190%2fA9190.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3617,
+          "width" : 4792,
+          "service" : [ {
+            "@id" : "https://iiif.archive.org/image/iiif/2/a-9190%2fA9190.jpg",
+            "@type" : "ImageService2",
+            "profile" : "http://iiif.io/api/image/2/level2.json",
+            "width" : 4792,
+            "height" : 3617
+          } ]
+        }
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://frbfrida.github.io/November-2026/manifests/manifest2.json/72e2d35d37c93392/annotations-1739470943.json",
+      "type" : "AnnotationPage"
+    } ]
+  }, {
+    "id" : "https://example.org/c123b28a-9c8d-476b-9be3-f66bc5b01843/canvas/4tkay3fsaeo-mwupjppj",
+    "type" : "Canvas",
+    "height" : 5067,
+    "width" : 6473,
+    "label" : {
+      "en" : [ "Backside" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "side" ]
+      },
+      "value" : {
+        "en" : [ "back" ]
+      }
+    } ],
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/a-9190-verso%2fA9190%20verso.jpg/full/405,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 317,
+      "width" : 405,
+      "service" : [ {
+        "@id" : "https://iiif.archive.org/image/iiif/2/a-9190-verso%2fA9190%20verso.jpg",
+        "@type" : "ImageService2",
+        "profile" : "http://iiif.io/api/image/2/level2.json",
+        "width" : 6473,
+        "height" : 5067,
+        "sizes" : [ {
+          "width" : 101,
+          "height" : 79
+        }, {
+          "width" : 202,
+          "height" : 158
+        }, {
+          "width" : 405,
+          "height" : 317
+        }, {
+          "width" : 809,
+          "height" : 633
+        }, {
+          "width" : 1618,
+          "height" : 1267
+        }, {
+          "width" : 3237,
+          "height" : 2534
+        }, {
+          "width" : 6473,
+          "height" : 5067
+        } ],
+        "tiles" : [ {
+          "width" : 512,
+          "height" : 512,
+          "scaleFactors" : [ 1, 2, 4, 8, 16, 32, 64 ]
+        } ]
+      } ]
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/c123b28a-9c8d-476b-9be3-f66bc5b01843/canvas/4tkay3fsaeo-mwupjppj/annotation-page/adwo9skykp-mwupjppj",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/c123b28a-9c8d-476b-9be3-f66bc5b01843/annotation/jnuqqbqja2n-mwupjppj",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/c123b28a-9c8d-476b-9be3-f66bc5b01843/canvas/4tkay3fsaeo-mwupjppj",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/a-9190-verso%2fA9190%20verso.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 5067,
+          "width" : 6473,
+          "service" : [ {
+            "@id" : "https://iiif.archive.org/image/iiif/2/a-9190-verso%2fA9190%20verso.jpg",
+            "@type" : "ImageService2",
+            "profile" : "http://iiif.io/api/image/2/level2.json",
+            "width" : 6473,
+            "height" : 5067
+          } ]
+        }
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://frbfrida.github.io/November-2026/manifests/manifest2.json/72e2d35d37c93392/annotations-4049269286.json",
+      "type" : "AnnotationPage"
+    } ]
+  } ]
+}
